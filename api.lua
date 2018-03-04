@@ -32,7 +32,7 @@ function harvestest.resgister_harvest(name,num_crops,steps,minlight)
   
   -- make item eatable
   minetest.override_item("harvestest:"..name, {
-      on_use = minetest.item_eat(10),
+      on_use = minetest.item_eat(1),
   })
   
   -- Override drop

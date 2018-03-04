@@ -21,11 +21,14 @@ dofile(modpath .. "/beetroot.lua")
 --broccoli
 dofile(modpath .. "/broccoli.lua")
 
---broccoli
+--peppers
 dofile(modpath .. "/pepper.lua")
 
---broccoli
+--eggplant
 dofile(modpath .. "/eggplant.lua")
+
+--peanut
+dofile(modpath .. "/peanut.lua")
 
 -- tomato
 dofile(modpath .. "/tomato.lua")
@@ -49,7 +52,8 @@ for i = 1, 5 do
 				--{items = {"harvestest:seed_broccoli"}, rarity = 1},
 				--{items = {"harvestest:seed_rpepper"}, rarity = 2},
 				--{items = {"harvestest:seed_gpepper"}, rarity = 2},
-				{items = {"harvestest:seed_eggplant"}, rarity = 2},
+				--{items = {"harvestest:seed_eggplant"}, rarity = 2},
+				{items = {"harvestest:seed_peanut"}, rarity = 2},
 				--End Test
 				{items = {"default:grass_1"}}
 			}
