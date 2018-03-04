@@ -6,6 +6,6 @@ The mod adds different seeds, plants and new food items that can be found in the
 
 ## References
 
-<https://ftbwiki.org/Pam%27s_HarvestCraft>
-<https://minecraft.gamepedia.com/Plants>
-<https://wiki.terrafirmacraft.com/Agriculture>
+* <https://ftbwiki.org/Pam%27s_HarvestCraft>
+* <https://minecraft.gamepedia.com/Plants>
+* <https://wiki.terrafirmacraft.com/Agriculture>
