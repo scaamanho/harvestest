@@ -15,7 +15,12 @@ minetest.register_craftitem("harvestest:dough", {
 	inventory_image = "harvestest_dough.png",
 })
 
--- apple pie dough
+-- apple pie
 harvestest.register_wakeware_food("applepie", 
 {"harvestest:bakeware","default:apple","harvestest:sugar","harvestest:dough"}, 
+14, 10)
+
+-- carrot cake
+harvestest.register_wakeware_food("carrotcake", 
+{"harvestest:bakeware","harvestest:carrot","harvestest:sugar","harvestest:dough"}, 
 14, 10)
