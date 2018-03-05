@@ -50,3 +50,39 @@ end
 function harvestest.resgister_stick_harvest(name,node,num_crops,steps,minlight)
   -- TODO:
 end
+
+
+function harvestest.register_wakeware_food(food, recipe, cooktime, eat_value)
+
+  -- register dough item
+  minetest.register_craft({
+    type = "shapeless",
+    output = "harvestest:"..food.."_dough",
+    recipe = recipe,
+  })
+  
+  minetest.register_craftitem("harvestest:"..food.."_dough", {
+    description = food.." Dough",
+    on_use = function(itemstack, user, pointed_thing)
+      minetest.do_item_eat(1, "harvestest:bakeware", itemstack, user, pointed_thing)
+    end,
+    inventory_image = "harvestest_"..food.."_dough.png",
+  })
+  
+  -- registe baked item 
+  minetest.register_craft({
+    type = "cooking",
+    cooktime = cooktime,
+    output = "harvestest:"..food,
+    recipe = "harvestest:"..food.."_dough",
+  })
+  
+  minetest.register_craftitem("harvestest:"..food, {
+    description = food,
+    on_use = function(itemstack, user, pointed_thing)
+      minetest.do_item_eat(eat_value, "harvestest:bakeware", itemstack, user, pointed_thing)
+    end,
+    inventory_image = "harvestest_"..food..".png",
+  })
+end
+
