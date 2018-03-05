@@ -31,6 +31,9 @@ dofile(modpath .. "/peanut.lua")
 -- tomato
 dofile(modpath .. "/tomato.lua")
 
+-- recipes
+dofile(modpath .. "/recipes.lua")
+
 
 
 
