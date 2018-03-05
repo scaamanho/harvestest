@@ -2,6 +2,8 @@
 
 The mod adds different seeds, plants and new food items that can be found in the world, eaten by players and crafted using specific recipes. It also changes the farming functionality of many of the vanilla crops, changing both farming mechanics and global game goals.
 
+**This work is in realy alfa stage.**
+
 
 
 ## References
