@@ -8,25 +8,23 @@ harvestest = {}
 local modpath = minetest.get_modpath(minetest.get_current_modname())
 
 dofile(modpath .. "/api.lua")
+
+--kitchenware
+dofile(modpath .. "/kitchenware.lua")
 -- salt
+dofile(modpath .. "/salt.lua")
 -- carrot
 dofile(modpath .. "/carrot.lua")
-
 -- potato
 dofile(modpath .. "/potato.lua")
-
 -- beeteoot
 dofile(modpath .. "/beetroot.lua")
-
 --broccoli
 dofile(modpath .. "/broccoli.lua")
-
 --peppers
 dofile(modpath .. "/pepper.lua")
-
 --eggplant
 dofile(modpath .. "/eggplant.lua")
-
 --peanut
 dofile(modpath .. "/peanut.lua")
 
