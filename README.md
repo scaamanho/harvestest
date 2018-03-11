@@ -4,6 +4,60 @@ The mod adds different seeds, plants and new food items that can be found in the
 
 **This work is in realy alfa stage.**
 
+## Crops
+
+* carrot
+* potato
+* beetroot
+* broccoli
+* pepper green
+* pepper red
+* eggplant
+* peneaut
+* tomato
+
+## Recipes
+
+### Kitchenware
+
+* mixingblow
+* bakeware
+
+### Basic
+
+* salt
+* sugar
+* dough
+
+### Apple
+
+* applepie
+
+### Carrot
+
+* carrotcake
+
+### Beetroot
+
+* Sugar
+
+### Broccoli
+
+### Eggplant
+
+### Peanut
+
+### Peas
+
+### Pepper
+
+### Potato
+
+* Backed Potato
+
+### Tomato
+
+* 
 
 
 ## References
