@@ -45,9 +45,9 @@ for i = 1, 5 do
 		drop = {
 			max_items = 2,
 			items = {
-				{items = {'farming:seed_wheat'},rarity = 5},
-				{items = {'farming:broccoli'},rarity = 6},
-				{items = {'farming:peas'},rarity = 7},  
+				{items = {'farming:seed_wheat'},rarity = 5, 'default:grass_1'},
+				{items = {'harvestest:seed_broccoli'},rarity = 6, 'default:grass_1'},
+				{items = {'harvestest:seed_peas'},rarity = 7, 'default:grass_1'},  
 				{items = {'default:grass_1'}},
 			}
 		}
@@ -60,9 +60,9 @@ for i = 1, 5 do
 		drop = {
 			max_items = 2,
 			items = {
-				{items = {"harvestest:gpepper"}, rarity = 7},
-				{items = {"harvestest:rpepper"}, rarity = 6},
-				{items = {"harvestest:peanut"}, rarity = 5},
+				{items = {"harvestest:seed_gpepper"}, rarity = 7, "default:dry_grass_1"},
+				{items = {"harvestest:seed_rpepper"}, rarity = 6, "default:dry_grass_1"},
+				{items = {"harvestest:seed_peanut"}, rarity = 5, "default:dry_grass_1"},
 				{items = {"default:dry_grass_1"}}
 			}
 		}
@@ -73,9 +73,9 @@ minetest.override_item("default:junglegrass", {
 	drop = {
 		max_items = 2,
 		items = {
-			{items = {'farming:seed_cotton'},rarity = 8},
-			{items = {'farming:eggplant'},rarity = 5},
-			{items = {"default:dry_grass_1"}}
+			{items = {'farming:seed_cotton'},rarity = 8, "default:junglegrass"},
+			{items = {'harvestest:seed_eggplant'},rarity = 5, "default:junglegrass"},
+			{items = {"default:junglegrass"}}
 		}
 	}
 })
@@ -86,7 +86,7 @@ minetest.override_item("default:papyrus", {
 		max_items = 2,
 		items = {
 			-- {items = {"harvestest:seed_corn"}, rarity = 5},
-			{items = {"harvestest:tomato_seed"}, rarity = 5},
+			{items = {"harvestest:tomato_seed"}, rarity = 5, "default:papyrus"	},
 			{items = {"default:papyrus"}}
 		}
 	}
@@ -97,8 +97,8 @@ minetest.override_item("default:dirt_with_grass", {
 	drop = {
 		max_items = 2,
 		items = {
-			{items = {"harvestest:potato_seed"}, rarity = 8, "default:dirt"},
-			{items = {"harvestest:beetroot_seed"}, rarity = 5, "default:dirt"},
+			{items = {"harvestest:seed_potato"}, rarity = 8, "default:dirt"},
+			{items = {"harvestest:seed_beetroot"}, rarity = 5, "default:dirt"},
 			{items = {"default:dirt"}},
 		}
 	}
