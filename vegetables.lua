@@ -17,38 +17,35 @@ harvestest.resgister_harvest("rpepper",5,7,10)
 harvestest.resgister_harvest("potato")
 
 
-
-
--- crafting
+-- crafting sugar
 minetest.register_craftitem("harvestest:sugar", {
 	description = "Sugar",
 	inventory_image = "harvestest_sugar.png",
 })
-
-
-
-minetest.register_craft({
-	type = "cooking",
-	cooktime = 14,
-	output = "harvestest:sugar",
-	recipe = "harvestest:beetroot"
-})
-
--- crafting
+-- crafting potato baked
 minetest.register_craftitem("harvestest:potato_baked", {
 	description = "Baken Potato",
 	inventory_image = "harvestest_potato_baked.png",
 	on_use = minetest.item_eat(5),
 })
 
--- recipes
-minetest.register_craft({
-	type = "cooking",
-	cooktime = 14,
-	output = "harvestest:potato_baked",
-	recipe = "harvestest:potato"
+minetest.register_craftitem("harvestest:peanut_butter", {
+	description = "Peanut Butter",
+	inventory_image = "harvestest_peanut_butter.png",
+	on_use = minetest.item_eat(5),
 })
 
+minetest.register_craftitem("harvestest:apple_jelly", {
+	description = "Apple Jelly",
+	inventory_image = "harvestest_applejelly.png",
+	on_use = minetest.item_eat(5),
+})
+
+minetest.register_craftitem("harvestest:apple_jelly_sandwidch", {
+	description = "Apple Jelly Sandwidch",
+	inventory_image = "harvestest_applejellysandwidch.png",
+	on_use = minetest.item_eat(10),
+})
 
 
 

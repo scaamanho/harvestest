@@ -22,11 +22,29 @@ dofile(modpath .. "/recipes.lua")
 --[[
 ---------------
 default:grass
+	* broccoli
+	* peas
+	* wheat
+
 default:dry_grass
+	* red pepper
+	* green pepper
+	* peneaut
+
 default:junglegrass
+	* eggplant
+	* cotton
+
 default:papyrus
+	* tomato
+
 default:dirt_with_grass
+	* potato
+	* beetroot
+
 default:bush_leaves
+	*
+
 default:dry_shrub
 ---------------
 * potato *
@@ -50,7 +68,8 @@ for i = 1, 5 do
 				{items = {'harvestest:seed_peas'},rarity = 7, 'default:grass_1'},  
 				{items = {'default:grass_1'}},
 			}
-		}
+		},
+		visual_scale = 1.25,
 	})
 end
 
@@ -65,7 +84,8 @@ for i = 1, 5 do
 				{items = {"harvestest:seed_peanut"}, rarity = 5, "default:dry_grass_1"},
 				{items = {"default:dry_grass_1"}}
 			}
-		}
+		},
+		visual_scale = 1.25,
 	})
 end
 
@@ -77,7 +97,8 @@ minetest.override_item("default:junglegrass", {
 			{items = {'harvestest:seed_eggplant'},rarity = 5, "default:junglegrass"},
 			{items = {"default:junglegrass"}}
 		}
-	}
+	},
+	--visual_scale = 1.25,
 })
 
 
