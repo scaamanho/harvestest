@@ -14,8 +14,10 @@ dofile(modpath .. "/kitchenware.lua")
 dofile(modpath .. "/vegetables.lua")
 -- tomato
 dofile(modpath .. "/tomato.lua")
--- recipes
+-- recipes harvestest
 dofile(modpath .. "/recipes.lua")
+-- crafting
+dofile(modpath .. "/crafting.lua")
 
 -- Modifyiing drops
 

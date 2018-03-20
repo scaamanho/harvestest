@@ -22,6 +22,8 @@ The mod adds different seeds, plants and new food items that can be found in the
 
 * mixingblow
 * bakeware
+* cuttingboard
+* saucepan
 
 ### Basic
 
@@ -31,21 +33,28 @@ The mod adds different seeds, plants and new food items that can be found in the
 
 ### Apple
 
-* applepie
+* apple caramel
+* baked apple
+* apple pie
+* apple jelly
+* apple jelly sandwidch
 
 ### Carrot
-
+* carrot baked
 * carrotcake
 
 ### Beetroot
 
 * Sugar
+* Caramel
 
 ### Broccoli
 
 ### Eggplant
 
 ### Peanut
+
+* peanut_butter
 
 ### Peas
 

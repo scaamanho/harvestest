@@ -1,5 +1,4 @@
 -- salt
-
 minetest.register_craft( {
 	type = "cooking",
 	cooktime = 5,
@@ -10,13 +9,6 @@ minetest.register_craft( {
 	},
 }) 
 
-minetest.register_craftitem("harvestest:salt", {
-	description = "Salt",
-	inventory_image = "harvestest_salt.png",
-})
-
--- TODO: Salt Block Compresed
-
 -- dough
 minetest.register_craft({
   type = "shapeless",
@@ -26,17 +18,21 @@ minetest.register_craft({
                   {"bucket:bucket_water","bucket:bucket_empty"}},
 })
 
-
-minetest.register_craftitem("harvestest:dough", {
-  description = "Dough",
-  on_use = minetest.item_eat(1),
-	inventory_image = "harvestest_dough.png",
+-- baked vegetables
+minetest.register_craft({
+	type = "cooking",
+	cooktime = 10,
+	output = "harvestest:baked_apple",
+	recipe = "default:apple"
 })
 
+minetest.register_craft({
+	type = "cooking",
+	cooktime = 10,
+	output = "harvestest:carrot_baked",
+	recipe = "harvestest:carrot"
+})
 
--- recipes 
-
--- baked vegetables
 minetest.register_craft({
 	type = "cooking",
 	cooktime = 14,
@@ -69,12 +65,6 @@ minetest.register_craft({
   replacements = {{"harvestest:saucepan", "harvestest:saucepan"}},
 })
 
-minetest.register_craftitem("harvestest:apple_jelly", {
-  description = "Apple Jelly",
-  on_use = minetest.item_eat(1),
-	inventory_image = "harvestest_applejelly.png",
-})
-
 -- Apple Jelly Sandwidh
 minetest.register_craft({
   type = "shapeless",
@@ -83,13 +73,18 @@ minetest.register_craft({
   replacements = {{"harvestest:cuttingboard", "harvestest:cuttingboard"}},
 })
 
--- pies
--- apple pie
-harvestest.register_wakeware_food("applepie", 
-{"harvestest:bakeware","default:apple","harvestest:sugar","harvestest:dough"}, 
-14, 10)
+-- caramel
+minetest.register_craft({
+  type = "shapeless",
+  output = "harvestest:caramel",
+  recipe = {"harvestest:sugar","harvestest:saucepan"},
+  replacements = {{"harvestest:saucepan", "harvestest:saucepan"}},
+})
 
--- carrot cake
-harvestest.register_wakeware_food("carrotcake", 
-{"harvestest:bakeware","harvestest:carrot","harvestest:sugar","harvestest:dough"}, 
-14, 10)
+-- apple caramel
+minetest.register_craft({
+  type = "shapeless",
+  output = "harvestest:apple_caramel",
+  recipe = {"harvestest:caramel","default:apple","default:stick"},
+  replacements = {{"harvestest:cuttingboard", "harvestest:cuttingboard"}},
+})
