@@ -69,6 +69,14 @@ The mod adds different seeds, plants and new food items that can be found in the
 * 
 
 
+
+#Cedits
+Pamela Collins (MatrexsVigil)
+https://minecraft.curseforge.com/projects/pams-harvestcraft
+
+Terrafirma Textures
+http://terrafirmacraft.com/credits.html
+
 ## References
 
 * <https://ftbwiki.org/Pam%27s_HarvestCraft>
