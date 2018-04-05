@@ -2,7 +2,7 @@
 
 The mod adds different seeds, plants and new food items that can be found in the world, eaten by players and crafted using specific recipes. It also changes the farming functionality of many of the vanilla crops, changing both farming mechanics and global game goals.
 
-**This work is in alfa stage.**
+**This work is in alfa stage. Most works but may contain some fails**
 
 ## Crops
 
@@ -15,6 +15,7 @@ The mod adds different seeds, plants and new food items that can be found in the
 * eggplant
 * peneaut
 * tomato
+* coffe
 
 ## Recipes
 
@@ -71,6 +72,9 @@ The mod adds different seeds, plants and new food items that can be found in the
 * tomato juice
 
 ## Coffe
+
+* coffe drink
+* coffe espresso
 
 
 

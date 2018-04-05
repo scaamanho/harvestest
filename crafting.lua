@@ -79,6 +79,20 @@ minetest.register_craftitem("harvestest:carrot_baked", {
 })
 
 
+-- coffe drink
+minetest.register_craftitem("harvestest:coffe_drink", {
+	description = "Coffe Drink",
+	inventory_image = "harvestest_coffedrink.png",
+	on_use = minetest.item_eat(3),
+})
+-- coffe espresso
+minetest.register_craftitem("harvestest:coffe_espresso", {
+	description = "Espresso",
+	inventory_image = "harvestest_coffeespresso.png",
+	on_use = minetest.item_eat(8),
+})
+
+
 -- pies
 -- apple pie
 harvestest.register_wakeware_food("applepie", 

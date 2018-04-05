@@ -89,5 +89,21 @@ minetest.register_craft({
   replacements = {{"harvestest:cuttingboard", "harvestest:cuttingboard"}},
 })
 
+-- coffe drrink
+minetest.register_craft({
+	type = "cooking",
+	cooktime = 5,
+	output = "harvestest:coffe_drink",
+	recipe = "harvestest:coffe"
+})
+
+-- coffe espresso
+minetest.register_craft({
+  output = "harvestest:coffe_espresso",
+  recipe = {{"harvestest:coffe","harvestest:coffe",""},{"harvestest:coffe","harvestest:sugar",""},{"","",""}},
+  replacements = {{"harvestest:cuttingboard", "harvestest:cuttingboard"}},
+})
+
+
 
 
