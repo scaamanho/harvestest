@@ -67,7 +67,8 @@ for i = 1, 5 do
 			items = {
 				{items = {'farming:seed_wheat'},rarity = 5, 'default:grass_1'},
 				{items = {'harvestest:seed_broccoli'},rarity = 6, 'default:grass_1'},
-				{items = {'harvestest:seed_peas'},rarity = 7, 'default:grass_1'},  
+				{items = {'harvestest:seed_peas'},rarity = 7, 'default:grass_1'}, 
+				{items = {'harvestest:seed_coffe'},rarity = 7, 'default:grass_1'}, 
 				{items = {'default:grass_1'}},
 			}
 		},
@@ -122,6 +123,7 @@ minetest.override_item("default:dirt_with_grass", {
 		items = {
 			{items = {"harvestest:seed_potato"}, rarity = 8, "default:dirt"},
 			{items = {"harvestest:seed_beetroot"}, rarity = 5, "default:dirt"},
+			{items = {'harvestest:seed_coffe'},rarity = 7, 'default:dirt'}, 
 			{items = {"default:dirt"}},
 		}
 	}

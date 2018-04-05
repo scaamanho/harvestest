@@ -15,7 +15,8 @@ harvestest.resgister_harvest("gpepper",5,7,10)
 harvestest.resgister_harvest("rpepper",5,7,10)
 --potato
 harvestest.resgister_harvest("potato")
-
+--coffe (num crops,steps,minlight)
+harvestest.resgister_harvest("coffe",4,4,10)
 
 
 
