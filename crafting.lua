@@ -32,6 +32,8 @@ minetest.register_craftitem("harvestest:apple_jelly", {
 	inventory_image = "harvestest_applejelly.png",
 })
 
+
+
 -- crafting sugar
 minetest.register_craftitem("harvestest:sugar", {
 	description = "Sugar",
@@ -75,3 +77,20 @@ minetest.register_craftitem("harvestest:carrot_baked", {
 	inventory_image = "harvestest_carrotbaked.png",
 	on_use = minetest.item_eat(5),
 })
+
+
+-- pies
+-- apple pie
+harvestest.register_wakeware_food("applepie", 
+{"harvestest:bakeware","default:apple","harvestest:sugar","harvestest:dough"}, 
+14, 10)
+
+-- carrot cake
+harvestest.register_wakeware_food("carrotcake", 
+{"harvestest:bakeware","harvestest:carrot","harvestest:sugar","harvestest:dough"}, 
+14, 10)
+
+-- juices
+harvestest.register_drinkable_food("tomato", {"harvestest:tomato","vessels:glass_bottle"}, 5)
+harvestest.register_drinkable_food("carrot", {"harvestest:carrot","vessels:glass_bottle"}, 5)
+harvestest.register_drinkable_food("apple", {"default:apple","vessels:glass_bottle"}, 5)

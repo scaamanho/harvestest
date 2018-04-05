@@ -38,10 +38,12 @@ The mod adds different seeds, plants and new food items that can be found in the
 * apple pie
 * apple jelly
 * apple jelly sandwidch
+* apple juice
 
 ### Carrot
 * carrot baked
 * carrotcake
+* carrot juice
 
 ### Beetroot
 
@@ -66,16 +68,16 @@ The mod adds different seeds, plants and new food items that can be found in the
 
 ### Tomato
 
-* 
+* tomato juice
 
 
 
 #Cedits
 Pamela Collins (MatrexsVigil)
-https://minecraft.curseforge.com/projects/pams-harvestcraft
+* <https://minecraft.curseforge.com/projects/pams-harvestcraft>
 
 Terrafirma Textures
-http://terrafirmacraft.com/credits.html
+* <http://terrafirmacraft.com/credits.html>
 
 ## References
 

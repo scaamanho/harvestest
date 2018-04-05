@@ -86,3 +86,18 @@ function harvestest.register_wakeware_food(food, recipe, cooktime, eat_value)
   })
 end
 
+function harvestest.register_drinkable_food(food, recipe, eat_value)
+  minetest.register_craft({
+    type = "shapeless",
+    output = "harvestest:"..food.."_juice",
+    recipe = recipe,
+  })
+  
+  minetest.register_craftitem("harvestest:"..food.."_juice", {
+    description = food.." juice",
+    on_use = function(itemstack, user, pointed_thing)
+      minetest.do_item_eat(eat_value, "vessels:glass_bottle", itemstack, user, pointed_thing)
+    end,
+    inventory_image = "harvestest_"..food.."juice.png",
+  })
+end
