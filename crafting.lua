@@ -92,7 +92,22 @@ minetest.register_craftitem("harvestest:coffe_espresso", {
 	on_use = minetest.item_eat(8),
 })
 
-
+-- donuts
+minetest.register_craftitem("harvestest:donut", {
+	description = "Donut",
+	inventory_image = "harvestest_donut.png",
+	on_use = minetest.item_eat(6),
+})
+minetest.register_craftitem("harvestest:donut_powdered", {
+	description = "Donut",
+	inventory_image = "harvestest_donutpowdered.png",
+	on_use = minetest.item_eat(7),
+})
+minetest.register_craftitem("harvestest:donut_jelly", {
+	description = "Donut",
+	inventory_image = "harvestest_donutjelly.png",
+	on_use = minetest.item_eat(8),
+})
 -- pies
 -- apple pie
 harvestest.register_wakeware_food("applepie", 

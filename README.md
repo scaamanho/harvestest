@@ -31,6 +31,7 @@ The mod adds different seeds, plants and new food items that can be found in the
 * salt
 * sugar
 * dough
+* donut
 
 ### Apple
 
@@ -40,6 +41,7 @@ The mod adds different seeds, plants and new food items that can be found in the
 * apple jelly
 * apple jelly sandwidch
 * apple juice
+* donut jelly
 
 ### Carrot
 * carrot baked
@@ -50,6 +52,7 @@ The mod adds different seeds, plants and new food items that can be found in the
 
 * Sugar
 * Caramel
+* donut powdered
 
 ### Broccoli
 

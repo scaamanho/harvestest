@@ -104,6 +104,22 @@ minetest.register_craft({
   replacements = {{"harvestest:cuttingboard", "harvestest:cuttingboard"}},
 })
 
-
+-- donuts
+minetest.register_craft({
+	type = "cooking",
+	cooktime = 5,
+	output = "harvestest:donut",
+	recipe = "harvestest:dough"
+})
+minetest.register_craft({
+  type = "shapeless",
+  output = "harvestest:donut_powdered",
+  recipe = {"harvestest:donut","harvestest:sugar"}
+})
+minetest.register_craft({
+  type = "shapeless",
+  output = "harvestest:donut_jelly",
+  recipe = {"harvestest:donut","harvestest:apple_jelly"}
+})
 
 
