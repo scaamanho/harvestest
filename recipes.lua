@@ -107,7 +107,7 @@ minetest.register_craft({
 -- donuts
 minetest.register_craft({
 	type = "cooking",
-	cooktime = 5,
+	cooktime = 7,
 	output = "harvestest:donut",
 	recipe = "harvestest:dough"
 })
@@ -123,3 +123,29 @@ minetest.register_craft({
 })
 
 
+-- grilled egplant
+minetest.register_craft({
+	type = "cooking",
+	cooktime = 10,
+	output = "harvestest:eggplant_grilled",
+	recipe = "harvestest:eggplant"
+})
+
+minetest.register_craft({
+  type = "shapeless",
+  output = "harvestest:eggplant_stuffed",
+  recipe = {"harvestest:eggplant","harvestest:gpepper","harvestest:broccoli","harvestest:peas"}
+})
+
+minetest.register_craft({
+  type = "shapeless",
+  output = "harvestest:eggplant_stuffed",
+  recipe = {"harvestest:eggplant","harvestest:rpepper","harvestest:broccoli","harvestest:peas"}
+})
+
+minetest.register_craft({
+	type = "cooking",
+	cooktime = 10,
+	output = "harvestest:peas_steamed",
+	recipe = "harvestest:peas"
+})

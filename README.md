@@ -16,6 +16,7 @@ The mod adds different seeds, plants and new food items that can be found in the
 * peneaut
 * tomato
 * coffe
+* peas
 
 ## Recipes
 
@@ -56,13 +57,20 @@ The mod adds different seeds, plants and new food items that can be found in the
 
 ### Broccoli
 
+* stuffed egplant
+
 ### Eggplant
+
+* grilled eggplant
+* stuffed egplant
 
 ### Peanut
 
 * peanut_butter
 
 ### Peas
+
+* stuffed egplant
 
 ### Pepper
 
@@ -79,7 +87,9 @@ The mod adds different seeds, plants and new food items that can be found in the
 * coffe drink
 * coffe espresso
 
+## Peas
 
+* peas steamed
 
 #Cedits
 Pamela Collins (MatrexsVigil)

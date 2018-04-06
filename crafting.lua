@@ -108,6 +108,26 @@ minetest.register_craftitem("harvestest:donut_jelly", {
 	inventory_image = "harvestest_donutjelly.png",
 	on_use = minetest.item_eat(8),
 })
+
+
+minetest.register_craftitem("harvestest:eggplant_grilled", {
+	description = "Eggplant Grilled",
+	inventory_image = "harvestest_eggplantgrilled.png",
+	on_use = minetest.item_eat(4),
+})
+
+minetest.register_craftitem("harvestest:eggplant_stuffed", {
+	description = "Eggplant Stuffed",
+	inventory_image = "harvestest_eggplantstuffed.png",
+	on_use = minetest.item_eat(10),
+})
+
+minetest.register_craftitem("harvestest:peas_steamed", {
+	description = "Steamed Peas",
+	inventory_image = "harvestest_peassteamed.png",
+	on_use = minetest.item_eat(5),
+})
+
 -- pies
 -- apple pie
 harvestest.register_wakeware_food("applepie", 
