@@ -3,9 +3,22 @@
 	Copyright (C) 2018 Santiago Caamaño  <scaamanho@gmail.com>
 	hereby released under the GNU LESSER GENERAL PUBLIC LICENSE v3 license.
 ]]--
+
+--local version = "0.0.1"
+
+--if harvestest ~= nil then
+--	core.log("error", "MOD: harvestest requires harvestest variable to be available")
+--end
+
 harvestest = {}
 
 local modpath = minetest.get_modpath(minetest.get_current_modname())
+
+--chexh node existence
+--if minetest.get_modpath("default") then
+	--
+--end
+
 -- api
 dofile(modpath .. "/api.lua")
 --kitchenware
