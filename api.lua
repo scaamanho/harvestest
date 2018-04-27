@@ -63,9 +63,10 @@ function harvestest.register_wakeware_food(food, recipe, cooktime, eat_value)
   
   minetest.register_craftitem("harvestest:"..food.."_dough", {
     description = food.." Dough",
-    on_use = function(itemstack, user, pointed_thing)
+    --[[on_use = function(itemstack, user, pointed_thing)
       minetest.do_item_eat(1, "harvestest:bakeware", itemstack, user, pointed_thing)
-    end,
+    end,]]
+    on_use = minetest.item_eat(1, "harvestest:bakeware"),
     inventory_image = "harvestest_"..food.."_dough.png",
   })
   
@@ -79,9 +80,10 @@ function harvestest.register_wakeware_food(food, recipe, cooktime, eat_value)
   
   minetest.register_craftitem("harvestest:"..food, {
     description = food,
-    on_use = function(itemstack, user, pointed_thing)
+    --[[on_use = function(itemstack, user, pointed_thing)
       minetest.do_item_eat(eat_value, "harvestest:bakeware", itemstack, user, pointed_thing)
-    end,
+    end,]]
+    on_use = minetest.item_eat(eat_value, "harvestest:bakeware"),
     inventory_image = "harvestest_"..food..".png",
   })
 end
@@ -95,9 +97,10 @@ function harvestest.register_drinkable_food(food, recipe, eat_value)
   
   minetest.register_craftitem("harvestest:"..food.."_juice", {
     description = food.." juice",
-    on_use = function(itemstack, user, pointed_thing)
+    --[[on_use = function(itemstack, user, pointed_thing)
       minetest.do_item_eat(eat_value, "vessels:glass_bottle", itemstack, user, pointed_thing)
-    end,
+    end,]]
+    on_use = minetest.item_eat(eat_value, "vessels:glass_bottle"),
     inventory_image = "harvestest_"..food.."juice.png",
   })
 end
